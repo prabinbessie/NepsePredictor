@@ -42,14 +42,14 @@ nepse-stock-predictor/
 | Layer              | Technology / Library                          |
 |--------------------|-----------------------------------------------|
 | **Data Scraping**  | Python 3.8+, requests, BeautifulSoup4         |
-| **Database**       | PostgreSQL (or MySQL) + SQLAlchemy ORM        |
+| **Database**       | PostgreSQL (or MySQL)                         |
 | **Backend / API**  | Python + Flask                                |
 | **ML / Modeling**  | scikit-learn, TensorFlow/Keras                |
 | **Data Processing**| pandas, NumPy                                 |
 | **Scheduling**     | cron (Linux) or Task Scheduler (Windows)      |
 | **Frontend**       | React (create-react-app) + Chart.js           |
 | **Testing**        | pytest (backend), Jest + React Testing Library|
-| **Version Control**| Git / GitHub                                  |
+| **Version Control**|       GitHub                                  |
 
 ## Installation and Setup
 
@@ -62,7 +62,7 @@ nepse-stock-predictor/
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nepse-stock-predictor.git
+   git clone https://github.com/prabinbessie/NepsePredictor.git
    cd nepse-stock-predictor/backend
    ```
 2. Create a virtual environment and activate it:
@@ -110,12 +110,7 @@ nepse-stock-predictor/
   npm test
   ```
 
-## Future Enhancements
-- Add support for additional stock exchanges.
-- Implement user authentication and authorization.
-- Enhance the machine learning pipeline with more advanced models.
-- Deploy the application using Docker and Kubernetes.
-- Integrate real-time stock data updates.
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
